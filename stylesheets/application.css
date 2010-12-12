@@ -204,9 +204,9 @@ h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 {
 	font-weight: bold; 
 }
 #content .wiki h1 { 
-	background: #edf3fe; 
-	color: #000000; 
-	font-size: 14px; 
+/*  background: #edf3fe; 
+*/	color: #000000; 
+    border-bottom: 1px solid black;
 	margin: -6px -10px 10px; 
 	padding: 10px 20px; 
 }
@@ -452,12 +452,11 @@ table.progress tr td.closed{
 	-webkit-border-top-left-radius: 5px;
 	-webkit-border-top-right-radius: 5px;
 	background: #FFFFFF;
-	border: 1px solid #CCCCCC;
 	border-bottom: none;
 	float: right;
 	font-family: verdana;
 	font-size: 0.9em;
-	margin: 3px 0 0 0;
+	margin: -6px -10px 0 0;
 	position: relative;
 	z-index: 2;
 	padding: 0;
